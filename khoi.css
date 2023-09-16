@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 30px;
+}
+.menu{
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    height: 100%;
+}
+.menu li{
+    list-style: none;
+    color: black;
+}
+.menu.active{
+    visibility: hidden;
+
+}
